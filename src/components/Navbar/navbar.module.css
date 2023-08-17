@@ -1,0 +1,61 @@
+@media only screen and (min-width: 1280px) {
+  .container{
+    width: 1120px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container{
+    width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+.navbar {
+  height: 80px;
+  background-color: #f1f5ff;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navContent a:hover{
+    color: #0d50f2;
+}
+
+.navRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.navRight a:hover {
+  text-decoration: none;
+}
+
+.btnSignUp {
+  width: 90px;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  background-color: #0d50f2;
+  cursor: pointer;
+}
+.btnSignUp:hover {
+  transform: scale(1.1);
+}

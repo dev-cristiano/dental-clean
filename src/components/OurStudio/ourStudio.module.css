@@ -1,0 +1,79 @@
+@media only screen and (min-width: 1280px) {
+  .mainContent {
+    width: 1120px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .mainContent {
+    width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+.spnBlue {
+  color: #0d50f2;
+  font-size: 18px;
+}
+
+.ourContent {
+  height: 600px;
+  display: flex;
+}
+
+.ourContentTop {
+  margin-top: 130px;
+}
+
+.card {
+  width: 500px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cardLogo {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #b7ecea;
+  border-radius: 10px;
+}
+
+.cardText {
+  margin-top: 5px;
+}
+
+.contentImage{
+  display: flex;
+  justify-content: end;
+}
+
+.imgOur {
+  width: 300px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.cardCounts{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardCount{
+  width: 200px;
+  height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 15px;
+  border: 1px solid #e4e0e0;
+}
